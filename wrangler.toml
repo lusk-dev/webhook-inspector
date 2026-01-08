@@ -1,0 +1,13 @@
+name = "webhook-inspector"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = ".vercel/output/static"
+
+# D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "webhook_db"
+database_id = "" # Add your D1 database ID after creating it with: wrangler d1 create webhook_db
+
+# Environment variables
+[vars]
+# Add any public environment variables here
